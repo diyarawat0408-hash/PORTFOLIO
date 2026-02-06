@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #328cc1;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0b3c5d;
+}
+  
+
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Highlight text */
+.highlight {
+    color: #0b3c5d;
+    font-weight: bold;
+}
+
+/* Skills list */
+ul {
+    list-style-type: square;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #0b3c5d;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Image Styling */
+.profile-img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #328cc1;
+}
+
+/* Footer */
+footer {
+    background-color: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #0b3c5d;
+    border-bottom: 2px solid #328cc1;
+    padding-bottom: 5px;
+}
+/* ===== Skills Section Layout (Flexbox) ===== */
+.skills-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
